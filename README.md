@@ -59,7 +59,16 @@ sudo systemctl enable --now usbmuxd
 
 ## ⬇️ Descargar y ejecutar
 
-El binario está en [`bin/AirCard-x86_64.AppImage`](bin/AirCard-x86_64.AppImage).
+**Descarga directa:** [AirCard-x86_64.AppImage (v0.1.2)](https://github.com/mclaider/aircard-linux/releases/latest/download/AirCard-x86_64.AppImage)
+· [todas las versiones](https://github.com/mclaider/aircard-linux/releases)
+
+```bash
+curl -fLO https://github.com/mclaider/aircard-linux/releases/latest/download/AirCard-x86_64.AppImage
+chmod +x AirCard-x86_64.AppImage
+./AirCard-x86_64.AppImage
+```
+
+También está en el repo, en [`bin/AirCard-x86_64.AppImage`](bin/AirCard-x86_64.AppImage):
 
 ```bash
 # Descargar este repo (o solo el AppImage)
